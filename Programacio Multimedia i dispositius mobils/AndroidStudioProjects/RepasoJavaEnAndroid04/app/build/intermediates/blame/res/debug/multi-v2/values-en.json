@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\APPS\\AndroidStudioProjects\\RepasoJavaEnAndroid04\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "D:\\APPS\\AndroidStudioProjects\\RepasoJavaEnAndroid04\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,5,4,6,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,201,156,249,103",
+                        "endColumns": "44,46,43,143,51",
+                        "endOffsets": "97,243,195,388,150"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,147,191,335",
+                        "endColumns": "44,46,43,143,51",
+                        "endOffsets": "95,142,186,330,382"
+                    }
+                }
+            ]
+        }
+    ]
+}

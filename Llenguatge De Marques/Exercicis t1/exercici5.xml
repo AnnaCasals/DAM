@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="mezclas.css" ?>
+<mezclas>
+	<mezcla resultado="naranja">
+		<color> rojo </color>
+		<color> amarillo </color>
+	</mezcla>
+	<mezcla resultado="gris">
+		<color> negro </color>
+		<color> blanco </color>
+	</mezcla>
+	<mezcla resultado="verde claro">
+		<color> amarillo </color>
+		<color> azul </color>
+		<color> blanco </color>
+	</mezcla>
+</mezclas>

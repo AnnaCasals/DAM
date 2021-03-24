@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="boto01">JUGAR</string>
+    <string name="boto02">CONFIGURAR</string>
+    <string name="boto03">ACERCA DE</string>
+    <string name="boto04">PUNTUACIONES</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2dProof</string>
+    <string name="producto">Product =</string>
+    <string name="suma">Addition =</string>
+    <string name="text">The Complex2 class extends the Complex class by defining methods for additions and products of complex numbers</string>
+    <string name="titol">Subclases example</string>
+</resources>

@@ -1,0 +1,3 @@
+body {background-color: #006699;}
+.mitexto {font-weight:bolder; text-decoration:underline blink; color: #FFFFFF;}
+.otrotexto {font-size: 24px; text-transform: capitalize; color: #FFCC00;}

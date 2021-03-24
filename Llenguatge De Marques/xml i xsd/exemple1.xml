@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<colores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation = " exemple1.xsd">
+  <colorin tono = "claro">azul marino</colorin>
+  <colorin tono = "oscuro"> negro </colorin>
+  <colorin tono = "claro">amarillo</colorin>
+</colores>

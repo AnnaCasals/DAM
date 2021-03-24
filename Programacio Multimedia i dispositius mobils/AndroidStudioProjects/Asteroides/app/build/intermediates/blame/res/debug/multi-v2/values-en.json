@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\annas\\AndroidStudioProjects\\Asteroides\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\annas\\AndroidStudioProjects\\Asteroides\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,105,146,196,241",
+                        "endColumns": "46,39,48,43,41",
+                        "endOffsets": "99,140,190,235,278"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,102,142,191,235",
+                        "endColumns": "46,39,48,43,41",
+                        "endOffsets": "97,137,186,230,272"
+                    }
+                }
+            ]
+        }
+    ]
+}

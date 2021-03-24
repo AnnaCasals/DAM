@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Utilitats</string>
+    <string name="botoLletra">Obtindre lletra DNI</string>
+    <string name="botoArrel">Calcular Arrel</string>
+    <string name="botoConversor">Conversor de Monedas</string>
+
+    <string name="lblDNI">Introdueix un DNI</string>
+    <string name="hintDNI">Escriu el DNI</string>
+
+    <string name="botoCalcular">Calcular</string>
+    <string name="lblresulatat">Resultat</string>
+
+    <string name="lblArrel">Introdueix un nombre:</string>
+
+    <string name="titolConv">Conversor de Monedas</string>
+    <string name="bArrere">Atràs</string>
+</resources>

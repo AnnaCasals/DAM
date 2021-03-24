@@ -1,0 +1,18 @@
+<!ELEMENT FibaWomensWorldCup(puntsPartit, rebots)>
+<!ELEMENT puntsPartit(jugadora+)>
+<!ELEMENT rebots(jugador)>
+<!ELEMENT jugadora(nom, equip, mitjaPunts, percentatgeAnotats)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom posicio (pivot | alero pivot | alero | escolta | base) #REQUIRED>
+<!ELEMENT equip (#PCDATA)>
+<!ELEMENT mitjaPunts (#PCDATA)>
+<!ELEMENT percentatgeAnotats EMPTY>
+<!ATTLIST percentatgeAnotats dosP (CDATA) #REQUIRED>
+<!ATTLIST percentatgeAnotats tresP (CDATA) #REQUIRED>
+<!ELEMENT jugador (nom, equip, mitjaRebots)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom posicio (pivot | alero pivot | alero | escolta | base) #REQUIRED>
+<!ELEMENT equip (#PCDATA)>
+<!ELEMENT mitjaRebots (#PCDATA)>
+<!ATTLIST mitjaRebots ofensius (CDATA) #REQUIRED>
+<!ATTLIST mitjaRebots defensius (CDATA) #REQUIRED>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proves2</string>
+    <string name="producto">Producte =</string>
+    <string name="suma">"Suma = "</string>
+    <string name="text">La classe Complex2 extén de la classe Complex definint métodes per a la suma i el producte de nombres complexes</string>
+    <string name="titol">Exemples d\' una subclasse</string>
+</resources>

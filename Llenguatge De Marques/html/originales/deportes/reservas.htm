@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Reservas</title>
+</head>
+<body bgcolor="#0099CC" leftmargin="20" topmargin="20" marginwidth="20" marginheight="20">
+<basefont size="4">
+<h1><em><u>RESERVAS</u></em></h1>
+<br>
+<form name="form1" method="post" action="">
+  <p>Nombre: 
+    <input name="nombre" type="text" size="45">
+  </p>
+  <p>DNI: 
+    <input name="dni" type="password" size="10">
+    e-mail: 
+    <input name="email" type="text" size="30">
+  </p>
+  <p>D&iacute;a:
+    <input name="dia" type="text" size="4">
+    <select name="diasemana" >
+      <option selected>Lunes</option>
+      <option>Martes</option>
+      <option>Mi&eacute;rcoles</option>
+      <option>Jueves</option>
+      <option>Viernes</option>
+    </select>
+    Mes: 
+    <select name="mes">
+      <option selected>Enero</option>
+      <option>Febrero</option>
+      <option>Marzo</option>
+      <option>Abril</option>
+      <option>Mayo</option>
+      <option>Junio</option>
+      <option>Julio</option>
+      <option>Agosto</option>
+      <option>Septiembre</option>
+      <option>Octubre</option>
+      <option>Noviembre</option>
+      <option>Diciembre</option>
+    </select>
+    Hora: 
+    <input name="hora" type="text" size="5">
+  </p>
+  <p>Instalaci&oacute;n o actividad: 
+    <select name="instalacion" >
+      <option selected>Pista tenis</option>
+      <option>Pista f&uacute;tbol</option>
+      <option>Aer&oacute;bic</option>
+      <option>Step</option>
+      <option>Musculaci&oacute;n</option>
+    </select>
+    Centro: 
+    <select name="centro">
+      <option selected>Don Benito</option>
+      <option>Madrid</option>
+      <option>Silla</option>
+    </select>
+  </p>
+  <p>Deseo recibir informaci&oacute;n en mi correo electr&oacute;nico:</p>
+  <blockquote>
+    <p> 
+      <input name="recibir" type="radio">S&iacute; <br>
+      <input type="radio" name="recibir">No
+    </p>
+  </blockquote> 
+  <input name="brestablecer" type="reset" value="Restablecer">
+  <input name="benviar" type="submit" value="Enviar">
+</form>
+</body>
+</html>

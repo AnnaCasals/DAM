@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.asteroides"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:5:5-29:15
+12        android:allowBackup="true"
+12-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\annas\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_icono_lanzador_original"
+15-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:7:9-58
+16        android:label="@string/app_name"
+16-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_icono_lanzador_original_round"
+17-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:9:9-69
+18        android:supportsRtl="true"
+18-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.asteroides.MainActivity" >
+20-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:14:17-69
+22-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:16:17-77
+24-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity
+27-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:19:9-21:66
+28            android:name="com.example.asteroides.AcercaDeActivity"
+28-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:19:19-51
+29            android:label="Acerca de..."
+29-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:20:13-41
+30            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+30-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:21:13-64
+31        <activity
+31-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:22:9-23:66
+32            android:name="com.example.asteroides.PreferenciasActivity"
+32-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:22:19-55
+33            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+33-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:23:13-64
+34        <activity
+34-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:24:9-25:66
+35            android:name="com.example.asteroides.Puntuaciones"
+35-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:24:19-47
+36            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+36-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:25:13-64
+37        <activity
+37-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:26:9-28:74
+38            android:name="com.example.asteroides.Juego"
+38-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:26:19-40
+39            android:screenOrientation="landscape"
+39-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:27:13-50
+40            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+40-->C:\Users\annas\AndroidStudioProjects\Asteroides\app\src\main\AndroidManifest.xml:28:13-71
+41    </application>
+42
+43</manifest>

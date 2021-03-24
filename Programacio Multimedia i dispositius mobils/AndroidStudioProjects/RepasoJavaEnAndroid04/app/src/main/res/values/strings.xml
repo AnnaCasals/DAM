@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Prova19</string>
+    <string name="titol">Ejemplo de una subclase</string>
+    <string name="text">La clase Complejo 2 extiende la clase Complejo definiendo métodos para la suma
+        y producto de números complejos</string>
+    <string name="variable1" translatable="false">c1 =</string>
+    <string name="variable2" translatable="false">c2 = </string>
+    <string name="complejo" translatable="false">+i</string>
+    <string name="suma">suma = </string>
+    <string name="producto">producto =</string>
+    <string name="inv1" translatable="false">1/c1 = </string>
+    <string name="inv2" translatable="false">1/c2 =</string>
+    <string name="div1" translatable="false">c1/c1 =</string>
+    <string name="div2" translatable="false">c2/c2 =</string>
+</resources>

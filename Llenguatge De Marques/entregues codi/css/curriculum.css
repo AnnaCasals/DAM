@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    font-size: 10px;
+    background-color: #E5E7E9;
+}
+h2 {
+    text-align: center;
+}
+div {
+    margin: 7px;
+}
+.a {
+    background-color: #BFC9CA;
+}
+.titulo {
+    background-color: #7F8C8D;
+    color: red;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.subtitulo {
+    background-color: #99A3A4;
+    color: purple;
+    font-weight: bold;
+    font-size: 12px; 
+}
+.blauisub {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.verde {
+    color: green;
+}
+#ult {
+    font-size: 8px;
+    text-align: right;
+}

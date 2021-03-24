@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Formulario de alta de usuario </title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            table { width: 100%; }
+            th {height: 50px}
+        </style>
+    </head>
+        <table border ="1"  >
+            <body>
+                <form action="ejemplo.php" method="get">
+                    <tr>
+                        <th colspan="2"><p> Identificador del nuevo usuario:    
+                            <input type="text" name ="identificador" size="20" value="usu_012345"> </th>
+                    </tr>
+                    <tr>
+                        <th> Nombre:
+                            <input type="text" name="nom" size="20"> </th>
+                        <th> Apellido:
+                            <input type="text" name="apellido" size="20"> </th>
+                    </tr>
+                    <tr>
+                        <th> Contraseña:
+                            <input type="password" name="contraseña" size="20"> </th>
+                        <th> Confirmar contraseña: 
+                            <input type="password" name="contraseña" size="20"> </th>
+                    </tr>
+                    <tr>
+                        <th colspan="2"> Email: 
+                            <input type="text" name="email" size="30"> </th>
+                    </tr>
+                    <tr> 
+                        <th> Sexo: </th> 
+                        <th><input type="radio" name="hm" value="h"> Hombre
+                            <input type="radio" name="hm" value="m" checked> Mujer </th>
+                    </tr>
+                    <tr>
+                        <th> Aficiones: </th>
+                        <th><input type="checkbox" name="a" value="d"> Deporte
+                            <input type="checkbox" name="a" value="l" checked> Lectura
+                            <input type="checkbox" name="a" value="c"> Cine </th>
+                    </tr> 
+                    <tr>
+                        <th> País: </th>
+                        <th><select>
+                            <option value="España">España</option>
+                            <option value="Francia" selected="selected">Francia</option>
+                            <option value="Portugal">Portugal</option>
+                        </select> </th>
+                    </tr>
+                    <tr>
+                        <th> Colores favoritos: </th>
+                        <th><select name="cl" size=3>
+                            <option value="1" selected> Rojo </option>
+                            <option value="2"> Verde </option>
+                            <option value="3" selected> Azul </option>
+                        </select></th>
+                    </tr>
+                    <tr>
+                        <th> Subir tu foto: </th>
+                        <th><input type="file"> </th>
+                    </tr>
+                    <tr> 
+                        <th> Comentarios personales: </th>
+                        <th><textarea name="comentarios" rows="5" cols="40"> Escribe aquí sus comentarios</textarea></th>
+                    </tr>
+                    <tr>
+                        <th><input type="submit" value="Enviar"></th>
+                        <th><input type="reset" value="Resetear"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><input type="button" disabled="true" value="Modificar datos de usuario"></th>
+                    </tr>
+            </form>
+        </body>
+    </table>
+</html>

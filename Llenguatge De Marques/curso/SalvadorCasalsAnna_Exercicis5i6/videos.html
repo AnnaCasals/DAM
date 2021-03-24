@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Curso de HTML5 y CSS3</title>
+  <meta name="description" content="HTML5, CSS3">
+  <meta name="author" content="Alejandro Amat">
+  <link rel="stylesheet" href="css/videos.css">
+</head>
+    
+<body>
+    <script>
+        function redimensionaBarra() {
+            if(!medio.ended) {
+                var total = parseInt(medio.currentTime * maximo / medio.duration);
+                progreso.style.width = total + 'px';
+            } else {
+                progreso.style.width = '0';
+                play.value = '\u25BA';
+                window.clearInterval(bucle);
+            }
+        }
+        function desplazarMedio(e) {
+            if(!medio.paused && !medio.ended) {
+                var ratonX = e.pageX - barra.offsetLeft;
+                var nuevoTiempo = ratonX * medio.duration / maximo;
+                medio.currentTime = nuevoTiempo;
+                progreso.style.width = ratonX + 'px';
+            }
+        }
+        function accionPlay() {
+            if(!medio.paused && !medio.ended) {
+                medio.pause();
+                play.value = '\u25BA';
+                window.clearInterval(bucle);
+            } else {
+                medio.play();
+                play.value = '| |';
+                bucle = setInterval(redimensionaBarra, 1000);
+            }
+        }
+        function iniciar() {
+            maximo = 700;
+            medio = document.getElementById('medio');
+            barra = document.getElementById('barra');
+            progreso = document.getElementById('progreso');
+            play = document.getElementById('play');
+            /* obtener los objetos del resto de elementos necesarios */
+            play.addEventListener('click', accionPlay, false);
+            /* crear los manejadores de eventos para el resto de botones */
+            barra.addEventListener('click', desplazarMedio, false);
+        }
+        window.addEventListener('load', iniciar, false);
+    </script>
+    
+	<div id="page">
+	   <!-- Títol -->
+		<header>
+			<h1><img src="imgs/logo.png">Curso de HTML5 y CSS3</h1>
+        </header>
+        <!-- Menú navegació -->
+		<nav>
+			<ul>
+                <li><a href="Exercici6.html">Contenidos</a></li>
+				<li><a href="#">Vídeos</a>
+                    <ul>
+                        <li><a href="videos.html">Vídeo 1</a></li>
+                        <li><a href="videos.html">Vídeo 2</a></li>
+                        <li><a href="videos.html">Vídeo 3</a></li>
+                    </ul>
+                </li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+        </nav>
+        <!-- Media -->
+		<main>
+            <div id="reproductor">
+                <video id="medio" width="720" height="400">
+                    <source src = "videos/trailer.mp4">
+                    <source src = "videos/trailer.ogg">
+                </video>
+                <div id="barra">
+                    <div id="progreso"></div>
+                </div>
+            </div>
+            <nav>
+                <input type="button" id="reiniciar" value="reiniciar">
+                <input type="button" id="retrasar" value="&laquo;">
+                <input type="button" id="play" value="&#9658;">
+                <input type="button" id="adelantar" value="&raquo;">
+                <input type="button" id="silenciar" value="silenciar">
+                <label>Volumen</label>
+                <input type="button" id="menosVolumen" value="-">
+                <input type="button" id="masVolumen" value="+">
+            </nav>
+        </main> <!-- content -->
+		<!-- Footer / adress -->
+		<footer>
+            <small>Alejandro Amat Reina © 2014. Curso de HTML5 y CSS3.</small><br>
+            <adress>Impartido para: <a href="http://cefire.edu.gva.es"> CEFIRE - Específico de Formación Profesional</a></adress>
+        </footer>
+	</div> <!-- page -->
+</body>
+</html>

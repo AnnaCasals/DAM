@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  FibaWomensWorldCup SYSTEM "FibaWomensWorldCup.dtd">
+<FibaWomensWorldCup>
+    <puntsPartit>
+      <jugadora> 
+        <nom posicio="pivot">Liz Cambage</nom>
+        <equip>Australia</equip>
+        <mitjaPunts>23.8</mitjaPunts>
+        <percentatgeAnotats dosP="62.9" tresP="33.3" />
+      </jugadora>
+      <jugadora> 
+        <nom posicio="alero pivot">Emma Meesseman</nom>
+        <equip>Belgica</equip>
+        <mitjaPunts>18.5</mitjaPunts>
+        <percentatgeAnotats dosP="52.3" tresP="0.0" />
+      </jugadora>
+      <jugadora> 
+        <nom posicio="escolta">Kia Nurse</nom>
+        <equip>Canada</equip>
+        <mitjaPunts>18.2</mitjaPunts>
+        <percentatgeAnotats dosP="40.0" tresP="36.4" />
+      </jugadora>
+    </puntsPartit>
+    <rebots>
+      <jugador>
+        <nom posicio="alero pivot">Emma Meesseman</nom>
+        <equip>Belgica</equip>
+        <mitjaRebots ofensius="3.7" defensius="7.0">10.7</mitjaRebots>
+      </jugador>
+      <jugador>
+        <nom posicio="pivot"> Liz Cambage</nom>
+        <equip>Australia</equip>
+        <mitjaRebots ofensius="2.2" defensius="8.3">10.5</mitjaRebots>
+      </jugador>
+      <jugador>
+        <nom posicio="pivot">Evelyn Akhator</nom>
+        <equip>Nigeria</equip>
+        <mitjaRebots ofensius="4.4" defensius="4.6">9.0</mitjaRebots>
+      </jugador>
+    </rebots>
+</FibaWomensWorldCup>

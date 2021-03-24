@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Factura</title>
+        <link rel="stylesheet" type="text/css" href="style/factura.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="header">
+            <img src="imatges/logo.PNG">
+            <div id="empresa">
+                Industria StarFuerte<br>
+                CIF: 12345678-G<br>
+                C/Forjadores s/n<br>
+                Isla de Hierro<br>
+                Tenerife<br>
+                España
+            </div>
+            <div class = "dreta">
+                <span id= "tit">FACTURA</span><br>
+                Número: <span class="recuadro"> 1 </span><br>
+                Fecha: <span class="recuadro"> 30/04/2008</span><br>
+            </div>
+        </div>
+        <div class = "c">
+            <span class = "titulo">Datos del Cliente</span><br>
+            Cliente: <span class="recuadro">Tío Sam</span> CIF: <span class="recuadro"> 9440000000 </span><br>
+            Dirección: <span class="recuadro"> Pennsylvania Avenue, 1600 </span> Provincia: <span class="recuadro"> Washington </span><br>
+            País: <span class="recuadro"> Estados Unidos</span>
+        </div>
+        <div class = "c">
+            <span class="titulo"> Líneas de factura </span><br>
+            <table>
+                <tr>
+                    <th> Cantidad </th>
+                    <th> Artículo </th>
+                    <th> Precio </th>
+                    <th> Subtotal </th>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> ARD01 - Armadura de oro recluciente </td>
+                    <td> 350.000$ </td>
+                    <td> 350.000$ </td>
+                </tr>
+                <tr> 
+                    <td> 3 </td>
+                    <td> ESO2 - Escudo antiproyectiles </td>
+                    <td> 50.000$ </td>
+                    <td> 150.000$ </td>
+                </tr>
+            </table>
+            <table class = "dreta">
+                <tr>
+                    <td> Base Imponible </td>
+                    <td> 500.000$ </td>
+                </tr>
+                <tr>
+                    <td> Descuento </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> IVA 20% </td>
+                    <td> 100.000$ </td>
+                </tr>
+                <tr>
+                    <td> Total Neto </td>
+                    <td> 600.000$ </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <span class = "titulo">Forma de pago y Datos bancarios</span>
+            <div>
+                <input type = "checkbox" name = "1" value = "Contado"> Pago al contado <br>
+                <input type = "checkbox" name = "2" value = "Domiciliado"> Pago Domiciliado<br>
+                <input type = "checkbox" name = "3" value = "Tarjeta"> Pago con Tarjeta<br>
+            </div>
+            <div class = "dreta">
+                Entidad: <input type = "text" name = "Entidad"><br>
+                Nº de cuenta: <input type="text" name = "NCuenta">
+            </div>
+        </div>
+    </body>
+</html>

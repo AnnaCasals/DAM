@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body {
+	background-color: #26A69A;
+	border: solid;
+	border-width: 10px;
+	border-color: #00695C;
+	padding: 8px;
+    margin: 0;
+}
+h1 {
+	text-align: center;
+    font-family: serif;
+}
+
+.neg {
+	font-weight: bold;
+}
+.cur {
+	font-style: italic;
+}
+.apartat {
+	background-color: #00695C;
+	margin: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 1px;
+}
+.a {
+	margin: 10px;
+	background-color: #26A69A;
+	color: black;
+	font-weight: normal;
+	padding: 10px;
+    font-size: 10px;
+}
+.subapartat {
+	margin: 15px;
+	background-color: #7F8C8D;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+}
+.b {
+	background-color: #00695C;
+	color: white;
+	padding: 10px;
+	font-weight: normal;
+    font-size: 10px;
+}
+#baix {
+	font-size: 8px;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-color: white;
+    padding: 2px;
+    border-width: 2px;
+}
+.dreta {
+    float: right;   
+}
+.esquerra {
+    float: left;
+}

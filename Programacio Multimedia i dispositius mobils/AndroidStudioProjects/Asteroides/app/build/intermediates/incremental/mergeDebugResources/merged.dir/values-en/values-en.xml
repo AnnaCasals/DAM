@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asteroids</string>
+    <string name="boto01">PLAY</string>
+    <string name="boto02">CONFIGURATION</string>
+    <string name="boto03">ABOUT US</string>
+    <string name="boto04">SCORES</string>
+</resources>
